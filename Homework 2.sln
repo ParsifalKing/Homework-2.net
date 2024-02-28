@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{B7AAFF44-95DA-439A-BF1E-7FD04AFBB8E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{DBB6DE82-CA9E-407E-9F02-76DC4230046B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A4E7779F-971E-4DDB-8FAF-F5BA00942788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7AAFF44-95DA-439A-BF1E-7FD04AFBB8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AAFF44-95DA-439A-BF1E-7FD04AFBB8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AAFF44-95DA-439A-BF1E-7FD04AFBB8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AAFF44-95DA-439A-BF1E-7FD04AFBB8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB6DE82-CA9E-407E-9F02-76DC4230046B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB6DE82-CA9E-407E-9F02-76DC4230046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB6DE82-CA9E-407E-9F02-76DC4230046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB6DE82-CA9E-407E-9F02-76DC4230046B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E7779F-971E-4DDB-8FAF-F5BA00942788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E7779F-971E-4DDB-8FAF-F5BA00942788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E7779F-971E-4DDB-8FAF-F5BA00942788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E7779F-971E-4DDB-8FAF-F5BA00942788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83D131C8-1E0F-486D-A15A-9CC2F0FFC4E0}
+	EndGlobalSection
+EndGlobal
