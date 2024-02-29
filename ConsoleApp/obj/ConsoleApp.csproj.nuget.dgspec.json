@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\lenov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenov\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj"
+              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj": {
+    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lenov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenov\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -117,14 +117,14 @@
         }
       }
     },
-    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lenov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenov\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -139,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj"
+              "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj"
               }
             }
           }

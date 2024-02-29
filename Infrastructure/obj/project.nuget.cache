@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7DjmX/HOJqVH5KCLJeoTppfhbvmsZbN7DRL3fKbmXeyjJHYbNjS9wrDlmb2iAiuz0jDtj8FzoXHayLgzPGmng==",
+  "dgSpecHash": "8b+PK2OBywZxzoBFQFYkleAAPmW5tiB6jF9iWqjIg8kFm1AHyq5XZdKfUOCFZISV3qftCgn0ErLyUntmlEAU0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenov\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\lenov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

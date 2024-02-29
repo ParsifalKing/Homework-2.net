@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\lenov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenov\\AppData\\Roaming\\NuGet\\NuGet.Config"

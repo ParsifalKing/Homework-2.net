@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ABdTK8aIwaToBdq9RVccrMDEC9dJYCoQkEq+D+qbD3Yr/zT90sYK1E5cmf8U34ucoKxWWg8+YXTDCy6pI0DT3w==",
+  "dgSpecHash": "hZay1vGLdRMekhdRjCHZMb+fDtiIj9OoSReKFrE4RSHutM96mitwV/KNUxceFSuwr3QjcJKJWlcr/1NH5cag8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 2\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\lenov\\OneDrive\\Desktop\\C#\\.Net\\Homeworks\\Homework 3\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenov\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\lenov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

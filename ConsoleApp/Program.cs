@@ -1,120 +1,165 @@
 ﻿using Domain.Models;
 using Infrastructure.Services;
 
-try
+
+var productServ = new ProductService();
+foreach (var item in productServ.GetProducts())
 {
-
-    var bookAuthorSer = new BookAuthor_Service();
-    foreach (var item in bookAuthorSer.GetBooks_Author())
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.WriteLine(item.FullName);
-        System.Console.WriteLine(item.Age);
-    }
-    System.Console.WriteLine();
-
-    foreach (var item in bookAuthorSer.CountAllAuthors_Books())
-    {
-        System.Console.WriteLine(item.FullName);
-        System.Console.WriteLine(item.Access);
-        System.Console.WriteLine(item.Age);
-        System.Console.Write($"This author have books : ");
-        System.Console.WriteLine(item.Count);
-    }
-
-    System.Console.WriteLine();
-
-    foreach (var item in bookAuthorSer.CountAuthor_Books(1))
-    {
-        System.Console.WriteLine(item.FullName);
-        System.Console.WriteLine(item.Access);
-        System.Console.WriteLine(item.Age);
-        System.Console.Write($"This author have books : ");
-        System.Console.WriteLine(item.Count);
-    }
-
-    System.Console.WriteLine();
-    foreach (var item in bookAuthorSer.CountBook_Author(1))
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.Write($"This book have authors : ");
-        System.Console.WriteLine(item.Count);
-    }
-
-    foreach (var item in bookAuthorSer.CountAllBook_Author())
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.Write($"This book have authors : ");
-        System.Console.WriteLine(item.Count);
-    }
-
-    var bookCategoryServ = new BookCategory_Service();
-
-    foreach (var item in bookCategoryServ.GetBooks_Category())
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.WriteLine(item.CategoryName);
-    }
-    System.Console.WriteLine();
-
-
-    foreach (var item in bookCategoryServ.CountAllCategory_Books())
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.Write("This book has categories : ");
-        System.Console.WriteLine(item.Count);
-    }
-    System.Console.WriteLine();
-
-    foreach (var item in bookCategoryServ.CountCategory_Books(1))
-    {
-        System.Console.WriteLine(item.Title);
-        System.Console.WriteLine(item.Description);
-        System.Console.WriteLine(item.Access);
-        System.Console.Write("This book has categories : ");
-        System.Console.WriteLine(item.Count);
-    }
-    System.Console.WriteLine();
-
-
-    foreach (var item in bookCategoryServ.CountAllBook_Categories())
-    {
-        System.Console.Write("Name of Category : ");
-        System.Console.WriteLine(item.CategoryName);
-        System.Console.Write("This category has books : ");
-        System.Console.WriteLine(item.Count);
-    }
-    System.Console.WriteLine();
-
-    foreach (var item in bookCategoryServ.CountBook_Categories(1))
-    {
-        System.Console.Write("Name of Category : ");
-        System.Console.WriteLine(item.CategoryName);
-        System.Console.Write("This category has books : ");
-        System.Console.WriteLine(item.Count);
-    }
-    System.Console.WriteLine();
-
-
-    var bookServ = new BookService();
-    foreach (var item in bookServ.CountAllBooks())
-    {
-        System.Console.Write("The count of all books are : ");
-        System.Console.WriteLine(item.Count);
-    }
+    System.Console.WriteLine(item.Id);
+    System.Console.WriteLine(item.Name);
+    System.Console.WriteLine(item.Price);
+    System.Console.WriteLine(item.DateOfCreation);
+    System.Console.WriteLine("------------------------");
 }
-catch (System.Exception)
-{
-    System.Console.WriteLine("Ups warning!!!");
+System.Console.WriteLine();
 
+
+System.Console.Write("All products : ");
+System.Console.WriteLine(productServ.CountAllProducts());
+System.Console.WriteLine();
+
+var pr1 = productServ.SearchProductsByDateOfCreation(new DateTime(2024, 01, 01));
+foreach (var item in pr1)
+{
+    System.Console.WriteLine(item.Id);
+    System.Console.WriteLine(item.Name);
+    System.Console.WriteLine(item.Price);
+    System.Console.WriteLine(item.DateOfCreation);
+}
+
+var customerServ = new CustomerService();
+var customerr = customerServ.GetAllCustomersByAge(20);
+foreach (var item in customerr)
+{
+    System.Console.WriteLine(item.Id);
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+}
+
+
+System.Console.WriteLine();
+
+var custEmail = customerServ.GetCustomerByEmail("mustafo@gmail.com");
+System.Console.WriteLine(custEmail.Id);
+System.Console.WriteLine(custEmail.FullName);
+System.Console.WriteLine(custEmail.Age);
+System.Console.WriteLine(custEmail.Email);
+
+System.Console.WriteLine();
+
+System.Console.WriteLine(customerServ.CountAllCustomers());
+System.Console.WriteLine();
+
+
+var countryServ = new CountryService();
+foreach (var item in countryServ.GetCountryies())
+{
+    System.Console.WriteLine(item.Id);
+    System.Console.WriteLine(item.Name);
+}
+System.Console.WriteLine();
+
+var countryName = countryServ.SearchCountryByName("France");
+System.Console.WriteLine(countryName.Id);
+System.Console.WriteLine(countryName.Name);
+System.Console.WriteLine();
+
+var countryId = countryServ.SearchCountryById(4);
+System.Console.WriteLine(countryId.Id);
+System.Console.WriteLine(countryId.Name);
+System.Console.WriteLine();
+
+System.Console.WriteLine(countryServ.CountAllCountries());
+
+
+var orderServ = new OrderService();
+
+foreach (var item in orderServ.GetOrders())
+{
+    System.Console.WriteLine(item.Description);
+    System.Console.WriteLine(item.OrderTime);
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+    System.Console.WriteLine(item.CountryName);
+    System.Console.WriteLine(item.ProductName);
+    System.Console.WriteLine(item.Price);
+    System.Console.WriteLine(item.DateOfCreation);
+    System.Console.WriteLine("--------------------");
+}
+
+foreach (var item in orderServ.SearchOrdersByDateTime(new DateTime(2024, 01, 01)))
+{
+    System.Console.WriteLine(item.Description);
+    System.Console.WriteLine(item.OrderTime);
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+    System.Console.WriteLine(item.CountryName);
+    System.Console.WriteLine(item.ProductName);
+    System.Console.WriteLine(item.Price);
+    System.Console.WriteLine(item.DateOfCreation);
+    System.Console.WriteLine("--------------------");
+}
+
+foreach (var item in orderServ.TenPopularOrders())
+{
+    System.Console.Write("All orders of customer : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine(item.ProductName);
+    System.Console.WriteLine(item.Price);
+    System.Console.WriteLine(item.DateOfCreation);
+    System.Console.WriteLine("--------------------");
+}
+System.Console.WriteLine();
+foreach (var item in orderServ.CountOfCustomersOrders())
+{
+    System.Console.Write("All orders of customer : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+    System.Console.WriteLine("--------------------");
+}
+
+System.Console.WriteLine();
+foreach (var item in orderServ.CountMonthOrdersOfCountry())
+{
+    System.Console.WriteLine(item.CountryName);
+    System.Console.Write("All orders of country during last month : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine("--------------------");
+}
+
+System.Console.WriteLine();
+foreach (var item in orderServ.CountYearOrdersOfCountry())
+{
+    System.Console.WriteLine(item.CountryName);
+    System.Console.Write("All orders of country during last month : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine("--------------------");
+}
+
+System.Console.WriteLine();
+
+
+foreach (var item in orderServ.BestCustomerOfMonth())
+{
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+    System.Console.Write("All orders of customer : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine("--------------------");
+}
+System.Console.WriteLine();
+foreach (var item in orderServ.BestCustomerOfYear())
+{
+    System.Console.WriteLine(item.FullName);
+    System.Console.WriteLine(item.Age);
+    System.Console.WriteLine(item.Email);
+    System.Console.Write("All orders of customer : ");
+    System.Console.WriteLine(item.Count);
+    System.Console.WriteLine("--------------------");
 }
